@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Tienda en línea</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <i class="fa-solid fa-microphone"></i>
+            <h1>Tiernda de microfnos</h1>
+        </div>
+        <div class="menu-toggle">☰</div>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Catálogo</a></li>
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="filters">
+            <label for="ordenarPor">Ordenar por:</label>
+            <select id="ordenarPor" name="ordenarPor">
+                <option value="menorPrecio">Menor precio</option>
+                <option value="mayorPrecio">Mayor precio</option>
+            </select>
+        </section>
+
+        <section class="main-content">
+            <div class="productcard">
+                <img src="./assets/img/micro.png" alt="Producto 1">
+                <p>Model: Microfono Condensador</p>
+                <button>Ver más</button>
+            </div>
+
+            <div class="productcard">
+                <img src="./assets/img/micro2.jpg" alt="Producto 2">
+                <p>Model: Microfono Shure</p>
+                <button>Ver más</button>
+            </div>
+
+            <div class="productcard">
+                <img src="./assets/img/quadcore.png" alt="Producto 3">
+                <p>Model: Quadcore</p>
+                <button>Ver más</button>
+            </div>
+
+            <div class="productcard">
+                <img src="./assets/img/maono.png" alt="Producto 4">
+                <p>Model: Maono</p>
+                <button>Ver más</button>
+         </div>
+
+            <div class="productcard">
+                <img src="./assets/img/btv_blue_sapphire_front.png" alt="Producto 5">
+                <p>Model: Philco</p>
+                <button>Ver más</button>
+            </div>
+
+            <div class="productcard">
+                <img src="./assets/img/micro5.png" alt="Producto 6">
+                <p>Model: Hyper X Solocast</p>
+                <button>Ver más</button>
+            </div>
+            <div class="productcard">
+                <img src="./assets/img/micro6.png" alt="Producto 7">
+                <p>Model: Tripode Condensador</p>
+                <button>Ver más</button>
+            </div>
+            <div class="productcard">
+                <img src="./assets/img/blueyeti.png" alt="Producto 8">
+                <p>Model: Blue Yeti</p>
+                <button>Ver más</button>
+            </div>
+        </section>
+        <div class="paginationcontainer">
+            <div class="pagination">
+                <span>&lt;</span>
+                <span>1</span>
+                <span>2</span>
+                <span>3</span>
+                <span>&gt;</span>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados &copy; 2023</p>
+        <div class="socialicons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+        </div>
+    </footer>
+</body>
+</html>
